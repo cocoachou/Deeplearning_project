@@ -82,9 +82,9 @@ def crop_faces_from_txt(input_txt_path, output_directory, target_size=(380, 380)
             cv2.imwrite(output_path, cv2.cvtColor(padded_face, cv2.COLOR_RGB2BGR))
 
             # crop된 얼굴을 출력(옵션)
-            plt.imshow(padded_face)
-            plt.axis('off')
-            plt.show()
+            #plt.imshow(padded_face)
+            #plt.axis('off')
+            #plt.show()
 
 # 경로 설정
 input_txt_path = '/content/gdrive/MyDrive/DL/team_project/datasets/deepfake_1st/real_paths.txt'  # txt 파일 경로
