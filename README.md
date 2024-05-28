@@ -11,9 +11,10 @@ crop_face_1-b.py:<br/>
 MTCNN으로부터 얻은 Bounding Box의 중심점을 찾고, Bounding Box의 Width, Height 중 최댓값을 기준으로 새 Bounding Box를 그림.<br/>
 이후, 빈 공간에 대해 zero padding을 실시
 <br/>
-get_file_path.py:</br>
+<br/>
+get_file_path.py:<br/>
 각 동영상 마다 한 장의 이미지만 샘플링하는 방법으로 fake/real data에 대해 각각 경로를 추출함.
-</br>
+<br/>
 <br/>
 crop_face.py:<br/>
 기존 raw 데이터가 각 동영상별 1초에 2장씩 샘플링된 이미지라 중복으로 여길 수 있는 이미지가 많음.<br/>
